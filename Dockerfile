@@ -26,7 +26,7 @@ RUN apt update && apt install -y --no-install-recommends \
 RUN python3 --version
 RUN pip3 install --upgrade pip
 RUN pip3 install --upgrade scipy matplotlib pillow scikit-image
-RUN pip3 install pip install torch==1.4.0 torchvision
+RUN pip3 install torch==1.4.0 torchvision
 
 # Volume
 RUN mkdir /projects
